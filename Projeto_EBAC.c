@@ -109,6 +109,7 @@ int main() {
         printf("\t1 - Registrar novo");
         printf("\t2 - Consultar aluno");
         printf("\t3 - Excluir cadastro\n\n\n");
+        printf("\t4 - Fechar programa\n\n");
         printf("Opção: ");
         
         scanf("%d", &opcao);
@@ -127,6 +128,12 @@ int main() {
             case 3:
                 excluir();
                 break;
+                
+            case 4:
+            	printf ("Obrigado por Utilizar nosso sotware.\n\n\n");
+            	printf ("Software por Lucas Gazineu.");
+            	return 0;
+            	break;
         
             default:
                 printf("Opção não disponível\n");
